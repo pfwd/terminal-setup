@@ -20,6 +20,7 @@ Clone the repository into your home directory
 ```
 git@github.com:pfwd/terminal-setup.git ~/terminal-setup.git
 ```
+Please check the following [install](bin/install.sh) and [uninstall](bin/uninstall.sh) scripts to ensure this won't wipe out existing bash profiles
 
 To install the new clients or updates run the following:
 ```

@@ -22,9 +22,20 @@ git clone git@github.com:pfwd/terminal-setup.git ~/terminal-setup.git
 ```
 Please check the following [install](bin/install.sh) and [uninstall](bin/uninstall.sh) scripts to ensure this won't wipe out existing bash profiles
 
-To install the new clients or updates run the following:
+Make sure the bash scripts are executable
+
+```
+$ chmod u+x ./bin/*
+```
+
+To install new clients or updates run the following:
+
 ```
 $ ./bin/install.sh
+```
+You must source the new .profile_bash for the below reload command to work
+```
+$ source ~/.bash_profile
 ```
 
 ### Switch between clients

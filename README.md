@@ -14,6 +14,11 @@ Each client should be structured like so
 Both bash aliases and ssh folders are optional
 
 ### Installation
+Clone the repository into your home directory
+```
+git@github.com:pfwd/terminal-setup.git ~/terminal-setup.git
+```
+
 To install the new clients or updates run the following:
 ```
 $ ./bin/install.sh

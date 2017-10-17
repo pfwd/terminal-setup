@@ -1,0 +1,13 @@
+# Composer
+alias cou="composer self-update"
+alias cov="composer --version"
+alias cod="composer update --dry-run"
+
+# File structure
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias dc="cd ~/code"
+alias ds="cd ~/terminal-setup.git"
+
+alias reload="source ~/.bash_profile"
+

@@ -31,6 +31,7 @@ $ ./bin/client_switch.sh -c <client> && reload
 ```
 
 ### Reloading the bash profile
+This only applies if you didn't add the `reload` command when switching between clients
 Each time you switch between clients you must reload the bash profile to pick up any changes
 ```
 $ reload

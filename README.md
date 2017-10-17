@@ -1,7 +1,9 @@
 # Terminal Setup
 This allows switching between client bash profiles.
 
-Each client and have their own SSH and bash aliases
+Each client can have their own SSH config and bash aliases
+
+When switching between clients a symlink named .current_client_aliases is added to the home directory.  This is linked to the active client aliases and changed when the client is switched
 
 ### Clients
 Each client should be structured like so

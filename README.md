@@ -36,7 +36,7 @@ Each time you switch between clients you must reload the bash profile to pick up
 ```
 $ reload
 ```
-When the profile is reloaded the [default aliases]() are also included
+When the profile is reloaded the [default aliases](.aliases) are also included
 
 ### Tips and tricks
 In each client add aliases that match to the clients SSH config

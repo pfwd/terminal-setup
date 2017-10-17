@@ -46,8 +46,7 @@ In each client add aliases that match to the clients SSH config
 ```
 # clients/foo/.aliases
 alias ssh-dev-site="ssh -F ~/.ssh/foo/config dev-site"
-
-
+  
 # clients/foo/.ssh/config
 Host dev-site
    HostName <IP_ADDRESS>
@@ -56,8 +55,7 @@ Host dev-site
        
 # clients/bar/.aliases
 alias ssh-dev-site="ssh -F ~/.ssh/bar/config dev-site"
-
-
+   
 # clients/bar/.ssh/config
 Host dev-site
    HostName <IP_ADDRESS>
@@ -67,7 +65,6 @@ Host dev-site
 $ ./bin/client_switch.sh -c foo && reload
 $ ssh-dev-site # This will access foo server
    
-
 $ ./bin/client_switch.sh -c bar && reload
 $ ssh-dev-site # This will access bar server
 ```

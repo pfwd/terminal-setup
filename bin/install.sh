@@ -24,12 +24,13 @@ function buildClients {
         echo "Dealing with ${client}"
 
         if [ -d "clients/${client}/.ssh" ]; then
-            cp -R clients/${client}/.ssh ~/.ssh/clients/${client}
+            sudo cp -R clients/${client}/.ssh ~/.ssh/clients/${client}
+            sudo chown -R ${USER}  ~/.ssh/clients/${client}
             echo "--- Updated SSH"
         fi
 
         if [ -f "clients/${client}/.aliases" ]; then
-            cp clients/${client}/.aliases ~/.client_aliases/.${client}_aliases
+            sudo cp clients/${client}/.aliases ~/.client_aliases/.${client}_aliases
             echo "--- Updated aliases"
         fi
 
